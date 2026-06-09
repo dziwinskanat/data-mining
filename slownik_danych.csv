@@ -1,52 +1,29 @@
-Nazwa oryginalna,Nazwa polska,Typ,Min,Max,Średnia,Odchylenie,Zakres
-is_canceled,Anulowanie rezerwacji,Binarna,0.0,1.0,0.28,0.45,0.0 - 1.0
-lead_time,Czas wyprzedzenia (dni),Ilościowa,0.0,737.0,79.97,86.06,0.0 - 737.0
-arrival_date_year,Rok przyjazdu,Ilościowa,2015.0,2017.0,2016.21,0.69,2015.0 - 2017.0
-arrival_date_month,Miesiąc przyjazdu,Ilościowa,1.0,12.0,6.47,3.1,1.0 - 12.0
-arrival_date_week_number,Numer tygodnia przyjazdu,Ilościowa,1.0,53.0,26.84,13.67,1.0 - 53.0
-arrival_date_day_of_month,Dzień miesiąca przyjazdu,Ilościowa,1.0,31.0,15.82,8.84,1.0 - 31.0
-stays_in_weekend_nights,Liczba nocy w weekend,Ilościowa,0.0,19.0,1.0,1.03,0.0 - 19.0
-stays_in_week_nights,Liczba nocy w tygodniu,Ilościowa,0.0,50.0,2.62,2.04,0.0 - 50.0
-adults,Liczba dorosłych,Ilościowa,0.0,55.0,1.88,0.62,0.0 - 55.0
-children,Liczba dzieci,Ilościowa,0.0,10.0,0.14,0.46,0.0 - 10.0
-babies,Liczba niemowląt,Ilościowa,0.0,10.0,0.01,0.11,0.0 - 10.0
-is_repeated_guest,Stały gość,Binarna,0.0,1.0,0.04,0.19,0.0 - 1.0
-previous_cancellations,Poprzednie anulacje,Ilościowa,0.0,26.0,0.03,0.37,0.0 - 26.0
-previous_bookings_not_canceled,Poprzednie rezerwacje bez anulacji,Ilościowa,0.0,72.0,0.18,1.73,0.0 - 72.0
-booking_changes,Liczba zmian w rezerwacji,Ilościowa,0.0,18.0,0.27,0.71,0.0 - 18.0
-agent,Identyfikator agenta,Ilościowa,0.0,535.0,81.09,109.98,0.0 - 535.0
-days_in_waiting_list,Dni na liście oczekujących,Ilościowa,0.0,391.0,0.75,10.0,0.0 - 391.0
-adr,Średnia cena za dobę (ADR),Ilościowa,0.0,510.0,106.46,51.88,0.0 - 510.0
-required_car_parking_spaces,Wymagane miejsca parkingowe,Ilościowa,0.0,8.0,0.08,0.28,0.0 - 8.0
-total_of_special_requests,Liczba specjalnych życzeń,Ilościowa,0.0,5.0,0.7,0.83,0.0 - 5.0
-total_nights,Łączna liczba nocy,Ilościowa,0.0,69.0,3.63,2.74,0.0 - 69.0
-total_guests,Łączna liczba gości,Ilościowa,1.0,55.0,2.03,0.79,1.0 - 55.0
-hotel_Resort Hotel,Typ hotelu (Resort Hotel),Binarna,0.0,1.0,0.39,0.49,0.0 - 1.0
-meal_FB,Typ posiłku (Pełne wyżywienie),Binarna,0.0,1.0,0.0,0.06,0.0 - 1.0
-meal_HB,Typ posiłku (Śniadanie i obiadokolacja),Binarna,0.0,1.0,0.1,0.31,0.0 - 1.0
-meal_SC,Typ posiłku (We własnym zakresie),Binarna,0.0,1.0,0.11,0.31,0.0 - 1.0
-meal_Undefined,Typ posiłku (Niezdefiniowany),Binarna,0.0,1.0,0.01,0.07,0.0 - 1.0
-market_segment_Complementary,Segment rynku (Bezpłatny),Binarna,0.0,1.0,0.01,0.09,0.0 - 1.0
-market_segment_Corporate,Segment rynku (Korporacyjny),Binarna,0.0,1.0,0.05,0.21,0.0 - 1.0
-market_segment_Direct,Segment rynku (Bezpośredni),Binarna,0.0,1.0,0.14,0.34,0.0 - 1.0
-market_segment_Groups,Segment rynku (Grupy),Binarna,0.0,1.0,0.06,0.23,0.0 - 1.0
-market_segment_Offline TA/TO,Segment rynku (Biuro podróży offline),Binarna,0.0,1.0,0.16,0.37,0.0 - 1.0
-market_segment_Online TA,Segment rynku (Biuro podróży online),Binarna,0.0,1.0,0.59,0.49,0.0 - 1.0
-market_segment_Undefined,Segment rynku (Niezdefiniowany),Binarna,0.0,1.0,0.0,0.0,0.0 - 1.0
-distribution_channel_Direct,Kanał dystrybucji (Bezpośredni),Binarna,0.0,1.0,0.15,0.36,0.0 - 1.0
-distribution_channel_GDS,Kanał dystrybucji (System GDS),Binarna,0.0,1.0,0.0,0.05,0.0 - 1.0
-distribution_channel_TA/TO,Kanał dystrybucji (Biuro podróży lub Agent),Binarna,0.0,1.0,0.79,0.41,0.0 - 1.0
-distribution_channel_Undefined,Kanał dystrybucji (Niezdefiniowany),Binarna,0.0,1.0,0.0,0.01,0.0 - 1.0
-reserved_room_type_B,Typ zarezerwowanego pokoju (B),Binarna,0.0,1.0,0.01,0.11,0.0 - 1.0
-reserved_room_type_C,Typ zarezerwowanego pokoju (C),Binarna,0.0,1.0,0.01,0.1,0.0 - 1.0
-reserved_room_type_D,Typ zarezerwowanego pokoju (D),Binarna,0.0,1.0,0.2,0.4,0.0 - 1.0
-reserved_room_type_E,Typ zarezerwowanego pokoju (E),Binarna,0.0,1.0,0.07,0.25,0.0 - 1.0
-reserved_room_type_F,Typ zarezerwowanego pokoju (F),Binarna,0.0,1.0,0.03,0.18,0.0 - 1.0
-reserved_room_type_G,Typ zarezerwowanego pokoju (G),Binarna,0.0,1.0,0.02,0.15,0.0 - 1.0
-reserved_room_type_H,Typ zarezerwowanego pokoju (H),Binarna,0.0,1.0,0.01,0.08,0.0 - 1.0
-reserved_room_type_L,Typ zarezerwowanego pokoju (L),Binarna,0.0,1.0,0.0,0.01,0.0 - 1.0
-deposit_type_Non Refund,Typ depozytu (Bezzwrotny),Binarna,0.0,1.0,0.01,0.11,0.0 - 1.0
-deposit_type_Refundable,Typ depozytu (Zwrotny),Binarna,0.0,1.0,0.0,0.04,0.0 - 1.0
-customer_type_Group,Typ klienta (Grupa),Binarna,0.0,1.0,0.01,0.08,0.0 - 1.0
-customer_type_Transient,Typ klienta (Indywidualny),Binarna,0.0,1.0,0.82,0.38,0.0 - 1.0
-customer_type_Transient-Party,Typ klienta (Indywidualny w grupie pakietowej),Binarna,0.0,1.0,0.13,0.34,0.0 - 1.0
+Nazwa zmiennej,Opis,Typ,Min,Max,Średnia,Odch. std.
+hotel,Typ hotelu,Kategorialna,-,-,-,-
+lead_time,Czas wyprzedzenia (dni),Ilościowa,0.0,737.0,79.97,86.06
+arrival_date_year,Rok przyjazdu,Ilościowa,2015.0,2017.0,2016.21,0.69
+arrival_date_month,Miesiąc przyjazdu,Ilościowa,1.0,12.0,6.47,3.1
+arrival_date_week_number,Numer tygodnia przyjazdu,Ilościowa,1.0,53.0,26.84,13.67
+arrival_date_day_of_month,Dzień miesiąca przyjazdu,Ilościowa,1.0,31.0,15.82,8.84
+stays_in_weekend_nights,Liczba nocy w weekend,Ilościowa,0.0,19.0,1.0,1.03
+stays_in_week_nights,Liczba nocy w tygodniu,Ilościowa,0.0,50.0,2.62,2.04
+adults,Liczba dorosłych,Ilościowa,0.0,55.0,1.88,0.62
+children,Liczba dzieci,Ilościowa,0.0,10.0,0.14,0.46
+babies,Liczba niemowląt,Ilościowa,0.0,10.0,0.01,0.11
+meal,Typ posiłku,Kategorialna,-,-,-,-
+market_segment,Segment rynku,Kategorialna,-,-,-,-
+distribution_channel,Kanał dystrybucji,Kategorialna,-,-,-,-
+is_repeated_guest,Stały gość,Binarna,0.0,1.0,0.04,0.19
+previous_cancellations,Poprzednie anulacje,Ilościowa,0.0,26.0,0.03,0.37
+previous_bookings_not_canceled,Poprzednie rezerwacje bez anulacji,Ilościowa,0.0,72.0,0.18,1.73
+reserved_room_type,Typ zarezerwowanego pokoju,Kategorialna,-,-,-,-
+booking_changes,Liczba zmian w rezerwacji,Ilościowa,0.0,18.0,0.27,0.71
+deposit_type,Typ depozytu,Kategorialna,-,-,-,-
+agent,Identyfikator agenta,Ilościowa,0.0,535.0,81.09,109.98
+days_in_waiting_list,Dni na liście oczekujących,Ilościowa,0.0,391.0,0.75,10.0
+customer_type,Typ klienta,Kategorialna,-,-,-,-
+adr,Średnia cena za dobę (ADR),Ilościowa,0.0,510.0,106.46,51.88
+required_car_parking_spaces,Wymagane miejsca parkingowe,Ilościowa,0.0,8.0,0.08,0.28
+total_of_special_requests,Liczba specjalnych życzeń,Ilościowa,0.0,5.0,0.7,0.83
+total_nights,Łączna liczba nocy (nowa),Ilościowa,0.0,69.0,3.63,2.74
+total_guests,Łączna liczba gości (nowa),Ilościowa,1.0,55.0,2.03,0.79
